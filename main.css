@@ -1,0 +1,107 @@
+body{
+	background-image:url('../images/bats.gif');
+	width: 850px;
+}
+/* Indent header text */
+h2{
+	font-size: 125%;
+}
+header{
+	background: -webkit-linear-gradient(45deg, white 0%, orange 75%, black 100%);
+	background-color: black;	
+}
+header h1 {
+	font-size: 250%;
+}
+
+section {
+	background-color: white;
+	box-shadow: 0px 9px 18px red;
+}
+
+section h1 {
+	font-size: 140%;
+}
+
+section h1::first-letter {
+	font-size: 250%;
+}
+/*center footer text */
+/*make footer font small*/
+footer{
+	background: -webkit-linear-gradient(45deg, black 0%, orange 25%, white 100%);
+	background-color: orange;
+}
+footer p{
+	font-size: 90%;	
+}
+
+strong{
+	color:orange;
+	text-decoration:blink;
+}
+
+#top{
+	text-shadow:
+	3px 3px 0px red,
+	6px 6px 0px orange,
+	9px 9px 0px yellow,
+	12px 12px 0px green,
+	15px 15px 0px blue,
+	18px 18px 0px indigo,
+	21px 21px 0px violet;
+	background-color: lightblue;
+}
+/* padding box settings */
+body, h1, h2, p{
+	padding: 0;
+}
+
+section  {
+	padding: 20px 60px 30px 0;
+}
+
+header img{
+	padding-right:15px;
+}
+
+hgroup  {
+	padding-top:15px;
+}
+footer  {
+	padding: 15px;
+}
+/*set borders*/
+body{
+	border: 3px solid black;
+}
+header {
+	border-bottom: 2px solid black;
+}
+footer  {
+	border-top: 2px solid black;
+}
+/*margin box settings */
+section  {
+	margin: 0 auoto;
+}
+h1,h2,p {
+	margin:0;
+}
+section h1{
+	margin-bottom: .5em;
+}
+section h2{
+	margin: .8em 0 .5 em;
+}
+section p{
+	margin-top:  .5em
+}
+}
+}
+}
+}
+}
+}
+}
+}
